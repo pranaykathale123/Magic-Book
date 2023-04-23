@@ -1,0 +1,101 @@
+/* Navbar background color and height */
+.navbar {
+background-color: #343a40;
+height: 70px;
+}
+
+/* Navbar logo/image */
+.navbar-brand img {
+height: 50px;
+width: auto;
+}
+
+/* Navbar active link styling */
+.navbar-dark .navbar-nav .nav-link.active {
+font-weight: bold;
+color: #f8b739 !important;
+}
+
+/* Navbar toggle button color */
+.navbar-toggler-icon {
+background-color: #fff;
+}
+
+/* Card view border radius and padding */
+.card {
+border-radius: 10px;
+padding: 10px;
+}
+
+/* Card view title and author styling */
+.card-title {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.card-subtitle {
+margin-top: 10px;
+font-size: 16px;
+font-weight: 500;
+color: #6c757d;
+}
+
+/* Card view button styling */
+.btn-primary {
+background-color: #f8b739;
+border-color: #f8b739;
+}
+.btn-primary:hover {
+background-color: #d89f16;
+border-color: #d89f16;
+}
+
+/* Book cover image styling */
+.card-img-top {
+height: 250px;
+width: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+
+/* Book information styling */
+.card-text {
+font-size: 16px;
+font-weight: 400;
+color: #6c757d;
+}
+
+/* Price styling */
+.card-subtitle.mb-2.text-muted {
+font-size: 18px;
+font-weight: bold;
+}
+
+/* Remove and Like button styling */
+.btn-group {
+margin-top: 10px;
+}
+.btn-secondary {
+background-color: #6c757d;
+border-color: #6c757d;
+}
+.btn-secondary:hover {
+background-color: #565e64;
+border-color: #565e64;
+}
+.btn-success {
+background-color: #28a745;
+border-color: #28a745;
+}
+.btn-success:hover {
+background-color: #218838;
+border-color: #218838;
+}
+
+/* Login message styling */
+.login-message {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+margin-top: 50px;
+}
